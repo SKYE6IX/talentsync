@@ -1,0 +1,47 @@
+@use "@/globalStyles/variables" as *;
+
+%shared-styles {
+  display: flex;
+  align-items: center;
+}
+.header {
+  @extend %shared-styles;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-radius: 100px;
+  background: $grey-100;
+}
+.header__logo {
+  @extend %shared-styles;
+  gap: 10px;
+  h2 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: $grey-900;
+    span {
+      color: $blue-dark-400;
+    }
+  }
+}
+.header__navs-lists {
+  list-style: none;
+  @extend %shared-styles;
+  gap: 40px;
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: $grey-500;
+  }
+}
+.header__button {
+  @extend %shared-styles;
+  gap: 8px;
+}
