@@ -1,12 +1,12 @@
 import React from "react";
-import FirstScreen from "../first-screen-seection/FirstScreen";
+import Headline from "../headline/Headline";
 import "./page.scss";
 
 export default function Page() {
   return (
     <div className="page">
       <div className="background-image"></div>
-      <FirstScreen />
+      <Headline />
     </div>
   );
 }
