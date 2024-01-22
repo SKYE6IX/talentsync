@@ -4,6 +4,7 @@ import SocialProof from "../social-proof/SocialProof";
 import Features from "../features/Features";
 import Testimonies from "../testimonies/Testimonies";
 import Faq from "../faq/Faq";
+import BottomBlock from "../bottom-block/BottomBlock";
 import "./page.scss";
 
 export default function Page() {
@@ -15,6 +16,7 @@ export default function Page() {
       <Features />
       <Testimonies />
       <Faq />
+      <BottomBlock />
     </div>
   );
 }
