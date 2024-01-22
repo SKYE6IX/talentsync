@@ -5,6 +5,7 @@ import Features from "../features/Features";
 import Testimonies from "../testimonies/Testimonies";
 import Faq from "../faq/Faq";
 import BottomBlock from "../bottom-block/BottomBlock";
+import Footer from "../footer/Footer";
 import "./page.scss";
 
 export default function Page() {
@@ -17,6 +18,7 @@ export default function Page() {
       <Testimonies />
       <Faq />
       <BottomBlock />
+      <Footer />
     </div>
   );
 }

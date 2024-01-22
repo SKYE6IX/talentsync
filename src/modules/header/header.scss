@@ -11,7 +11,7 @@
   border-radius: 100px;
   background: $grey-100;
 }
-.header__logo {
+.site-logo {
   @extend %shared-styles;
   gap: 10px;
   h2 {

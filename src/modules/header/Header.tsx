@@ -11,7 +11,7 @@ export default function Header() {
   ];
   return (
     <header className="header">
-      <div className="header__logo">
+      <div className="site-logo">
         <SiteLogo />
         <h2>
           ClearLink<span>.</span>
