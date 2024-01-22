@@ -1,6 +1,7 @@
 @use "@/globalStyles/variables" as *;
 .testimonies-block {
   padding: 96px 160px;
+  background: $grey-50;
 }
 .testimonies-block__inner-container {
   padding: 0px 32px;
