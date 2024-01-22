@@ -2,6 +2,7 @@ import React from "react";
 import Headline from "../headline/Headline";
 import SocialProof from "../social-proof/SocialProof";
 import Features from "../features/Features";
+import Testimonies from "../testimonies/Testimonies";
 import "./page.scss";
 
 export default function Page() {
@@ -11,6 +12,7 @@ export default function Page() {
       <Headline />
       <SocialProof />
       <Features />
+      <Testimonies />
     </div>
   );
 }

@@ -1,0 +1,112 @@
+@use "@/globalStyles/variables" as *;
+.testimonies-block {
+  padding: 96px 160px;
+}
+.testimonies-block__inner-container {
+  padding: 0px 32px;
+  display: flex;
+  gap: 64px;
+}
+.testimonies-block__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.testimonies-block__text {
+  width: 620px;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.88px;
+  color: $grey-900;
+}
+.testimonies-block__profile-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.testimonies-block__profile-name {
+  h5 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: $grey-900;
+  }
+  p {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: $grey-600;
+  }
+}
+.testimonies-block__arrows {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: auto;
+}
+.testimonies-block__arrows-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  border: 1px solid $blue-100;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+}
+.testimonies-block__images-container {
+  width: 100%;
+  height: 496px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  &::before,
+  &::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+  }
+}
+.testimonies-block__image-wrapper {
+  margin-right: 16px;
+  &:nth-child(1) {
+    width: 160px;
+    height: 160px;
+    order: 1;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+  &:nth-child(2) {
+    width: 160px;
+    height: 240px;
+    order: 1;
+    margin-bottom: 10px;
+  }
+  &:nth-child(3) {
+    width: 192px;
+    height: 128px;
+    order: 2;
+  }
+  &:nth-child(4) {
+    width: 160px;
+    height: 240px;
+    order: 2;
+  }
+  &:nth-child(5) {
+    width: 192px;
+    height: 128px;
+    order: 2;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+}
